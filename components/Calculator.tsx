@@ -4,6 +4,7 @@ import { useState } from "react";
 import { goals } from "../lib/goalDatabase";
 import { calculateProjection } from "../lib/calculator";
 
+
 export default function Calculator() {
   const [currentAge, setCurrentAge] = useState<number | null>(null);
   const [dailyHours, setDailyHours] = useState<number | null>(null);

@@ -1,5 +1,6 @@
 import Calculator from "../components/Calculator";
 
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-black">
@@ -327,7 +328,7 @@ export default function Home() {
         }}
       />
 
-        {/* Ad Placeholder Style B - After Calculator */}
+      {/* Ad Placeholder Style B - After Calculator */}
 <section className="px-6 py-12">
   <div className="max-w-5xl mx-auto">
     <div className="border border-gray-300 rounded-md overflow-hidden">
