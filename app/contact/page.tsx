@@ -21,7 +21,7 @@ export default function ContactPage() {
         </p>
 
         <p className="font-medium">
-          your-email@example.com
+          isittoolatecalculator@gmail.com
         </p>
 
         <p className="text-sm text-gray-600">
