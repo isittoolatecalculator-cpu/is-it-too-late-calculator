@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-black">
 
+
       {/* HERO */}
       <section id="top" className="py-10 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -14,10 +15,33 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Ad Placeholder 1 - After Hero */}
+<section className="px-6 py-10">
+  <div className="max-w-5xl mx-auto">
+    <div className="bg-gray-100 border border-gray-300 text-gray-500 text-center py-10 rounded-md">
+      Advertisement
+    </div>
+  </div>
+</section>
+
       {/* CALCULATOR */}
       <section id="calculator" className="px-6">
         <Calculator />
       </section>
+
+      {/* Ad Placeholder Style B - After Calculator */}
+<section className="px-6 py-12">
+  <div className="max-w-5xl mx-auto">
+    <div className="border border-gray-300 rounded-md overflow-hidden">
+      <div className="bg-gray-200 text-gray-500 text-sm text-center py-2">
+        Advertisement
+      </div>
+      <div className="bg-gray-100 h-[90px] md:h-[120px] flex items-center justify-center text-gray-400 text-lg">
+        728 × 90 Ad Space
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* ================= CODING AT 30 ================= */}
       <section id="coding-at-30" className="py-10 px-6 max-w-6xl mx-auto">
@@ -124,6 +148,15 @@ export default function Home() {
         </div>
       </section>
 
+        {/* Ad Placeholder 3 - After Calculator */}
+<section className="px-6 py-10">
+  <div className="max-w-5xl mx-auto">
+    <div className="bg-gray-100 border border-gray-300 text-gray-500 text-center py-10 rounded-md">
+      Advertisement
+    </div>
+  </div>
+</section>
+
       {/* ================= GYM AT 40 ================= */}
       <section id="gym-at-40" className="py-10 px-6 max-w-6xl mx-auto">
         <h2 className="text-2xl font-bold mb-6">
@@ -216,6 +249,8 @@ export default function Home() {
         </div>
       </section>
 
+        
+
       {/* ================= FAQ SECTION ================= */}
       <section id="faq" className="py-10 px-6 max-w-6xl mx-auto">
         <h2 className="text-2xl font-bold mb-6">
@@ -291,6 +326,20 @@ export default function Home() {
           })
         }}
       />
+
+        {/* Ad Placeholder Style B - After Calculator */}
+<section className="px-6 py-12">
+  <div className="max-w-5xl mx-auto">
+    <div className="border border-gray-300 rounded-md overflow-hidden">
+      <div className="bg-gray-200 text-gray-500 text-sm text-center py-2">
+        Advertisement
+      </div>
+      <div className="bg-gray-100 h-[90px] md:h-[120px] flex items-center justify-center text-gray-400 text-lg">
+        728 × 90 Ad Space
+      </div>
+    </div>
+  </div>
+</section>
 
             {/* ================= FOOTER ================= */}
       <footer className="bg-white border-t mt-20 py-10 px-6 text-center text-sm text-gray-600">
