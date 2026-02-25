@@ -20,7 +20,12 @@ export const metadata: Metadata = {
   },
   description:
     "Calculate whether it's too late to start coding, investing, gym, or college. Model your remaining time, daily hours, and opportunity cost instantly.",
-  keywords: [
+
+    verification:{
+      google: "8J0-VGQomTg0GZQCw8ravfINM37ziZDVmYMMeJyxTps"
+    },
+
+    keywords: [
     "is it too late to start coding at 30",
     "is it too late to start investing at 35",
     "is it too late to start gym at 40",
